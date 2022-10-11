@@ -9,8 +9,13 @@ for (int i=1; i<=number; i++)
 //logic to check if the number is odd or not  
 //if i%2 is not equal to zero, the number is odd  
 if (i%2!=0)   
+{
+system.out.println("===========")  
+System.out.print(i + " ");  
+}  
 {  
 System.out.print(i + " ");
 }  
+}
 }
 }
